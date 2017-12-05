@@ -1,12 +1,14 @@
 let gustosDeHeados = ["Primero Chocolate" , "Segundo Sambayon" , "Tercero Crema Americana" , "Cuarto Frutilla" 
 , "Cinco Dulce de leche" , "Seis Banana Split" , "Siete Almendra" , "Ocho Mascarpone" , "Nueve Cereza" , "Diez Limon"];
 
-function nuevaLista(arrHelados , nuevoGusto) {
+function nuevaLista(arrHelados , nuevoGusto, gustoDos) {
 	let newCream = arrHelados.reverse()
-		newCream.push (nuevoGusto)
-		return nuevoGusto
+		newCream.push(nuevoGusto)
+		newCream.push(gustoDos)
+		return newCream;
 
 }
 
 
-console.log(nuevaLista(gustosDeHeados, "Once Durazno" , "Doce Melon"))
+var hola = nuevaLista(gustosDeHeados, "Once Durazno","limon")
+console.log(hola)
