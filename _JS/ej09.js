@@ -1,4 +1,4 @@
-const nombre = "Mariano"	
+var nombre = "Mariano"	
 nombre = "Mariano92"	
 
 

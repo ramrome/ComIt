@@ -1,4 +1,4 @@
-let nombre ="Mariano"
-let saludo = "Bienvenido"
+var nombre ="Mariano"
+var saludo = "Bienvenido"
 
 console.log(saludo + ' ' + nombre +" al curso de ECMAScript!!")

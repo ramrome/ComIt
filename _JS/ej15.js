@@ -1,4 +1,4 @@
-let nombre ="Mariano"
-let template = "Bienvenido ${nombre} a éste sitio"
+var alumno ="Mariano"
+var template = `El mejor alumno es: ${alumno}`
 
 console.log(template)

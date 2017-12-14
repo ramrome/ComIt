@@ -1,2 +1,2 @@
-let saludo  = "ECMAScript rocks!!"
+var saludo  = "ECMAScript rocks!!"
 console.log(saludo)
